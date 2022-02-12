@@ -1,0 +1,28 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.bg-dark {
+  background-color: pink !important;
+}
+
+.nav-item:hover {
+  color: #E2B842 !important;
+}
+
+h1 {
+  color: pink;
+  font-weight: 700;
+}
+h2 {
+  color: white;
+  font-weight: 700;
+}
+
+img {
+  width: 360px;
+  height: 240px;
+  /* object-fit: cover; */
+}
+footer, footer .container .col{
+  height: 100px;
+}
