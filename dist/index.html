@@ -9,6 +9,7 @@
 
 </head>
 <body>
+ 
 <!-- partial:index.partial.html -->
 <!-- 
 In this example we are making use of:
@@ -46,11 +47,11 @@ In this example we are making use of:
   <div class="jumbotron">
    
       <marquee behavior="slide" direction="left">Happy Valentine Day <3</marquee>
+      <audio id="myAudio" controls autoplay>
     
-    <audio controls autoplay> 
-      <source src="test.mp3" type="audio/mpeg"> 
-  </audio> 
-  <p>เธอคือปลายฝัน : หนิง ปัทมา Cover Version / Original : บาส (วงกันเอง) </p>
+        <source src="test.mp3" type="audio/mpeg">
+      </audio>
+
   </div>
   
   <div class="row">
@@ -88,6 +89,12 @@ In this example we are making use of:
   </div>
   
 </footer>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myAudio").autoplay;
+    document.getElementById("demo").innerHTML = x;
+  }
+  </script>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/popper.min.js'></script>
